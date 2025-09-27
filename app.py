@@ -128,4 +128,4 @@ def Checking_page():
     return render_template("check.html", url=url_to_check, prediction=result)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port=5000)
