@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <title>Phishing URL Detector</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+        .welcome-container {
+            max-width: 600px;
+            text-align: center;
+            padding: 2rem;
+        }
+        .btn-lg {
+            padding: 1rem 2rem;
+            font-size: 1.25rem;
+        }
+        .fa-shield-halved {
+            font-size: 5rem; /* Makes the icon larger */
+            color: #0d6efd; /* Bootstrap primary blue color */
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <i class="fa-solid fa-shield-halved mb-4"></i>
+        
+        <h1 class="h2 mb-3">Welcome to the Phishing URL Detector</h1>
+        <p class="lead text-muted mb-4">
+            Use a machine learning model to analyze any URL and determine if it's a potential threat. Click the button below to start.
+        </p>
+        <form action="/check" method="get">
+            <button type="submit" class="btn btn-primary btn-lg">Go to Checker</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

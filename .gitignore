@@ -1,0 +1,6 @@
+*.csv
+*.ipynb
+script.py
+*.arff
+*.pyc
+*.docx
