@@ -2,7 +2,7 @@
 
 This project is a web application built with Python and Flask that uses a machine learning model to detect phishing websites. Users can enter a URL, and the application will analyze its features to classify it as either "Safe" or "Phishing" in real-time.
 
-![Screenshot of the Phishing Detector web application interface](https://i.imgur.com/your-screenshot-url.png) ## ✨ Features
+✨ Features
 
 - **Real-Time URL Analysis**: Submit a URL and get an instant prediction.
 - **Machine Learning Backend**: Utilizes a pre-trained Random Forest model to classify URLs based on 30 different features.
